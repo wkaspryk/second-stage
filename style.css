@@ -1,0 +1,483 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'gadugi';
+  src: "font/gadugi.ttf";
+}
+
+.full{
+	width:100%;
+	bottom: 0;
+	padding-bottom: 20px;
+}
+
+.full p, li{
+	font-size: 16px;
+}
+
+.full img{
+	margin: 0 auto;
+}
+
+.custom-container{
+  margin: 0 auto;
+  background-color:rgba(255, 255, 255, .4);
+  padding: 10px;
+}
+
+.head-slider{
+background: #474747; /* Old browsers */
+background: -moz-linear-gradient(top,  #474747 0%, #2c2c2c 0%, #666666 0%, #4c4c4c 0%, #595959 0%, #2c2c2c 0%, #000000 51%, #111111 60%, #1c1c1c 100%, #2b2b2b 100%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#474747), color-stop(0%,#2c2c2c), color-stop(0%,#666666), color-stop(0%,#4c4c4c), color-stop(0%,#595959), color-stop(0%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(100%,#1c1c1c), color-stop(100%,#2b2b2b), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #474747 0%,#2c2c2c 0%,#666666 0%,#4c4c4c 0%,#595959 0%,#2c2c2c 0%,#000000 51%,#111111 60%,#1c1c1c 100%,#2b2b2b 100%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #474747 0%,#2c2c2c 0%,#666666 0%,#4c4c4c 0%,#595959 0%,#2c2c2c 0%,#000000 51%,#111111 60%,#1c1c1c 100%,#2b2b2b 100%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #474747 0%,#2c2c2c 0%,#666666 0%,#4c4c4c 0%,#595959 0%,#2c2c2c 0%,#000000 51%,#111111 60%,#1c1c1c 100%,#2b2b2b 100%,#131313 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #474747 0%,#2c2c2c 0%,#666666 0%,#4c4c4c 0%,#595959 0%,#2c2c2c 0%,#000000 51%,#111111 60%,#1c1c1c 100%,#2b2b2b 100%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+.head-slider p{
+    color: white;
+  }
+
+.custom-container h1{
+  margin-top: 0;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: none;
+}
+
+
+ body {
+	background-image:url(img/body-back.jpg);
+	background-position:top;
+	background-size:cover; 
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+ }
+
+footer p{
+  margin-bottom: 0;
+  padding-bottom:0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight:lighter;
+  text-align:center;
+  font-size: 1.4rem !important;
+}
+
+footer a{
+  margin-bottom: 0;
+  padding-bottom:0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight:lighter;
+  font-size: 1.4rem !important;
+}
+
+#links {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#links img {
+  margin-top: 5px;
+}
+
+.slidesjs-container .slidesjs-control {
+  width: 100% !important;
+}
+
+.title {
+	font-size: 20px;
+	font-weight:bolder !important;
+	text-transform:uppercase;
+}
+
+.jumbotron{
+	background-color: rgba(0, 0, 0, 0) !important;
+  margin: 0 auto;
+  padding: 0 0 0 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.jumbotron h1 {
+  font-family: 'gadugi';
+  letter-spacing: -1px;
+  text-transform: none;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 40px !important;
+  margin-bottom: 0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif !important;
+	letter-spacing:-0.02em;
+}
+
+.navbar{
+	background: #4c4c4c; /* Old browsers */
+
+  background: -moz-linear-gradient(top,  #4c4c4c 0%, #666666 0%, #595959 0%, #474747 2%, #2c2c2c 27%, #1c1c1c 91%, #111111 100%, #2b2b2b 100%, #131313 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(0%,#666666), color-stop(0%,#595959), color-stop(2%,#474747), color-stop(27%,#2c2c2c), color-stop(91%,#1c1c1c), color-stop(100%,#111111), color-stop(100%,#2b2b2b), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  #4c4c4c 0%,#666666 0%,#595959 0%,#474747 2%,#2c2c2c 27%,#1c1c1c 91%,#111111 100%,#2b2b2b 100%,#131313 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  #4c4c4c 0%,#666666 0%,#595959 0%,#474747 2%,#2c2c2c 27%,#1c1c1c 91%,#111111 100%,#2b2b2b 100%,#131313 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  #4c4c4c 0%,#666666 0%,#595959 0%,#474747 2%,#2c2c2c 27%,#1c1c1c 91%,#111111 100%,#2b2b2b 100%,#131313 100%); /* IE10+ */
+
+  background: linear-gradient(to bottom,  #4c4c4c 0%,#666666 0%,#595959 0%,#474747 2%,#2c2c2c 27%,#1c1c1c 91%,#111111 100%,#2b2b2b 100%,#131313 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+  opacity: .9;
+
+  position: absolute !important;
+}
+
+.nav-item{
+	font-family: oswald;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    top: 6px;
+}
+
+.nav-item:hover{
+	opacity: 1;
+	color: white;
+	text-decoration:none;	
+}
+
+a:link, a:visited {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.line {
+  height: 265px;
+  opacity: 0.4;
+  width: 10px;
+  position: absolute;
+  top: 0px;
+  }
+
+.line1 {
+  left: 0px;
+}
+
+.line2 {
+  right: 0px;
+}
+
+.line-horizontal {
+  width: 100%;
+  height: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  opacity: .4;
+  position: relative;
+  top: 30px;
+}
+
+.logo {
+	max-width: 56px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.35);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 255, 0.35);
+  box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 0.35);
+  margin-left: 15px;
+}
+
+.logo-header {
+  letter-spacing: 3px;
+  max-width: 540px;
+  float: left;
+}
+
+.logo-header p {
+  margin-top: -16px;
+  margin-bottom: 0 !important;
+  letter-spacing: 1px;
+  font-size: 1.8rem !important;
+  position: relative;
+  left: 5px;
+}
+
+.logo-footer {
+  max-width: 365px;
+  min-height: 100px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+.logo-footer h1 {
+  font-family: 'gadugi';
+  letter-spacing: -1px;
+  font-size: 4.8rem;
+  color: black;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.logo-footer p {
+  font-family: 'helvetica neue';
+  text-align: left;
+  margin-top: -13px;
+  margin-left: 75px;
+  font-size: 2rem !important;
+  font-weight: 300;
+  color: black;
+}
+
+.logo-footer a:hover {
+  text-decoration: none;
+}
+
+.logo-footer a>p:hover {
+  color: white;
+}
+
+.footer-address {
+  max-width: 415px;
+  line-height: 2.5;
+  margin-top: 7px;
+}
+
+.footer-address p {
+  font-size: 1.2rem !important;
+}
+
+.footer-address a:nth-child(3) {
+  margin-left: 75px !important;
+}
+
+.facebook {
+  width: 45px;
+  display: inline;
+  margin-top: -8px !important;
+}
+
+.footer-link {
+  display: inline;
+  color: black !important;
+  font-family: 'helvetica';
+  width: 48px;
+}
+
+.footer-address a:nth-child(2) {
+  margin-left: 0 !important;
+}
+
+header{
+  height: 70px;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav {
+  float: right;
+  margin-top: 16px;
+  margin-right: 20px;
+  min-width: 220px;
+}
+
+.header-nav a {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header-nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+	margin: 0 auto !important;
+}
+/* SlidesJS Optional: If you'd like to use this design */
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+
+    #slides {
+      display: none;
+      min-width: 220px;
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    .about-us p {
+      max-width: 650px;
+      margin: 0 auto;
+      margin-bottom: 10px;    
+    }
+  </style>
+/*  <!-- End SlidesJS Optional-->
+*/
+/*  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+*/  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+	
+
+    /* For tablets & smart phones */
+	
+	
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 850px
+      }
+    } 
+
+.log-in {
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
